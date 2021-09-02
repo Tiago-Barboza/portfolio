@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 235, 71);
+}
+nav{
+    /*background-color: rgb(90, 186, 167);*/
+    background-image: linear-gradient(to right,rgb(90, 186, 167),rgb(4, 78, 63));
+}
+.navbar-nav{
+    width:40%;
+}
+.navbar-brand img{
+    position: relative;
+}
+.nav-link{
+    color: black;
+    font-size: 1.5em;
+}
+#navbar-menu{
+    position: relative;
+    width: 100%;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-collapse{
+    position: absolute;
+    width: 100%;
+}
+/*Main content*/
+#main-content{
+    position: relative;
+}
+#title h1{
+    margin: 50px 0px 50px;
+    text-align: center;
+}
+#subtitle h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#content-index div{
+    margin: 0px auto 20px;
+}
+#content-index div img{
+    width: 100%;
+    height: 100%;
+}
+#receita-index{
+    position: relative;
+    width: 37vw;
+    height: 27vw;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 50px;
+    transform: rotate(-5deg);
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}
+#receita-index:hover{
+    border: 3px solid black;
+}
+#receita-index span{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    font-size: 1.3em;
+}
+/*Menu Receitas*/
+.recipes{
+    position: relative;
+    text-decoration: none;
+}
+.recipes-itens{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+}
+.recipes-itens:nth-child(2n){
+    transform: rotate(5deg);
+}
+.recipes-itens:nth-child(2n + 1){
+    transform: rotate(-5deg);
+}
+.recipes-itens:hover{
+    box-shadow: 5px 5px 5px white;
+}
+.recipes img{
+    width: 300px;
+    height: 200px;
+}
+.title-recipes{
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+.specs-recipes span{
+    width: 300px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+.recipes-itens{
+    margin-bottom: 100px;
+}
+/*CSS das receitas*/
+#content-recipes{
+    margin-bottom: 20px;
+}
+.full-recipe{
+    background-color: white;
+    background-image: linear-gradient(rgb(230, 235, 71),rgb(90, 186, 167));
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-radius: 50px;
+    padding: 50px;
+}
+.full-recipe h3{
+    text-align: center;
+    color: orangered;
+    font-size: 2.5em;
+}
+.full-recipe h4{
+    padding: 10px;
+    /*background-color: gray;*/
+    background-image: linear-gradient(to right,rgb(230, 235, 71),rgb(90, 186, 167));
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.inf-recipes img{
+    width: 100%;
+    height: 100%;
+}
+.inf-recipes{
+    position: relative;
+    width: 60%;
+    height: 40%;
+    padding: 50px;
+    background-color: white;
+    margin: 50px auto 0px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(5deg);
+}
+.inf-recipes h1{
+    position: absolute;
+    top: 0;
+    width: 86%;
+    text-align: center;
+}
+.inf-recipes span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.5em;
+}
+
+
+
+/*Extra Large Devices*/
+@media (min-width:1200px){
+
+}
+/*Large Devices*/
+@media (min-width:992px) and (max-width:1199px){
+
+}
+/*Medium Devices*/
+@media (min-width:768px) and (min-width:991px){
+
+}
+/*Small Devices*/
+@media (min-width:767px){
+
+}
